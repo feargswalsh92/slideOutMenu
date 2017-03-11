@@ -638,13 +638,13 @@ const int FrontViewPositionNone = 0xff;
     return self;
 }
 
-
+//MARK: Fwalsh begin
 - (void)_initDefaultProperties
 {
     _frontViewPosition = FrontViewPositionLeft;
     _rearViewPosition = FrontViewPositionLeft;
     _rightViewPosition = FrontViewPositionLeft;
-    _rearViewRevealWidth = 260.0f;
+    _rearViewRevealWidth = 400.0f;
     _rearViewRevealOverdraw = 60.0f;
     _rearViewRevealDisplacement = 40.0f;
     _rightViewRevealWidth = 260.0f;
@@ -670,7 +670,7 @@ const int FrontViewPositionNone = 0xff;
     _clipsViewsToBounds = NO;
     _extendsPointInsideHit = NO;
 }
-
+//MARK: Fwalsh end
 
 #pragma mark - StatusBar
 
